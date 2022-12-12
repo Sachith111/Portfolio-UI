@@ -5,12 +5,12 @@ export const Navbar = () => {
   return (
     <div className='n-wrapper'>
         <div className='n-left'>
-            <div className='n-name'>Ams</div>
+            <div className='n-name'>kiaro</div>
             <span>toogle</span>
         </div>
         <div className='n-right'>
             <div className='n-list'>
-                <ul>
+                <ul style={{listStyleType:'none'}}>
                     <li>Home</li>
                     <li>Service</li>
                     <li>Experiece</li>
@@ -18,10 +18,11 @@ export const Navbar = () => {
                     <li>Testimonials</li>
                 </ul>
             </div>
-            <button className="button">
-                Contact us
+            <button className="button n-button">
+                Contact
             </button>
         </div>
+        
     </div>
   )
 }
