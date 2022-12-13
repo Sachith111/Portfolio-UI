@@ -13,7 +13,7 @@ export const Navbar = () => {
                 <ul style={{listStyleType:'none'}}>
                     <li>Home</li>
                     <li>Service</li>
-                    <li>Experiece</li>
+                    <li>Experience</li>
                     <li>Portfolio</li>
                     <li>Testimonials</li>
                 </ul>
